@@ -29,5 +29,7 @@ namespace SportsStore.Models
         // Пожалуйста, введите название страны
         public string Country { get; set; }
         public bool GiftWrap { get; set; }
+        [BindNever]
+        public bool Shipped { get; set; }
     }
 }
